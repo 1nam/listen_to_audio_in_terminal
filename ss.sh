@@ -3,6 +3,9 @@
 # who knew terminal , aplay and a bash script 
 # could help you relax after a hard day.
 # and then I made art the tree of life in code.
+# the cool desktop notify i use linux mint cinnamon 20 Ulyana 64bit 
+# default terminal the code is default as well nothing extra to install.
+# this is the code for it example:    notify-send " Now Playing crickets :)"
  
 PATH=/bin:/usr/bin:
 
