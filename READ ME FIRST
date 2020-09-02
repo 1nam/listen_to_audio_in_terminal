@@ -1,0 +1,24 @@
+wav files have to be in the same folder as the script.
+
+open terminal in folder/directory where the music and script is.
+
+chmod +x s.sh   #makes script ececuteable.
+
+./s.sh     #starts the script in terminal.
+
+For wav you can use aplay
+
+example in terminal type:    
+
+aplay crickets.wav
+
+aplay Rain.wav
+
+aplay wind.wav
+
+
+this plays the song till the end.
+
+or
+
+ctrl + c   to stop and return to terminal prompt.
