@@ -24,19 +24,19 @@ tput sgr0
 
 echo ""
 
-echo "                  a - crickets"
-echo "                  b - Rain"
-echo "                  c - wind"
+echo "                  a - crickets" #name of song
+echo "                  b - Rain"     #name of song
+echo "                  c - wind"     #name of song
 
 read user_input;
 
 case $user_input in
     (a) echo -e "        $CYAN now playing crickets" 
-    aplay crickets.wav;;  # add commands also
+    aplay crickets.wav;;  # add wav file
     (b) echo -e "        $CYAN now playing Rain"
-     aplay Rain.wav;; # add commands also
+     aplay Rain.wav;; # add add wav file
     (c) echo -e "        $CYAN now playing wind"
-     aplay wind.wav;;  # add commands also
+     aplay wind.wav;;  # add add wav file
     (*) echo "please restart and choose from the menu  a, b or c";;
 
 esac  # backwards case to close case.
